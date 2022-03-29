@@ -1,0 +1,50 @@
+
+.gridcontainer{
+    display:grid;
+    margin:0px;
+    border:3px dotted rgba(245, 11, 30, 0.8);
+    gap:0px;
+    background:linear-gradient(to right, rgb(199, 70, 119), rgb(81, 182, 250));
+    padding:50px;
+
+
+
+}
+
+
+.gridcontainer > div {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgba(240, 241, 236, 0.8);
+    border: 1px solid rgba(8, 236, 19, 0.8);
+
+} 
+    
+
+
+
+
+.cheetah
+      {
+  text-align: center;
+  color:rgb(27, 236, 9);
+  
+            }
+
+   .sum{
+
+       text-align:right;         
+            }
+
+    .email{
+     text-align: right;
+
+    }        
+
+    .txtarea{
+        grid-auto-flow: 1fr;
+        width:fit-content;
+        height:fit-content;
+
+       }
