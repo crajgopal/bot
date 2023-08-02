@@ -1,7 +1,7 @@
 function response(){
  let answers ={
- "Hi":"Hi , how are you ? Do you have any salesforce question? Do you need suggestion?",
- "hi":"Hi , how are you ? Do you have any salesforce question? Do you need suggestion?",
+ "Hi":"Hi , how are you ? Do you have any salesforce question? Do you need suggestion? Type 'suggest'",
+ "hi":"Hi , how are you ? Do you have any salesforce question? Do you need suggestion? Type suggest",
  "Hello":"Hello , how are you ?",
  "hello":"Hello , how are you ?",
  "bye" : "Bye , take care .",
