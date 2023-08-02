@@ -6,8 +6,8 @@ function response(){
  "hello":"Hello , how are you ?",
  "bye" : "Bye , take care .",
  "":"Enter your salesforce related question if you need an answer.",
- "your name?": "I am Ceetah bot",
- "what is your name?": "I am Ceetah bot",
+ "your name?": "I am Freelance bot",
+ "what is your name?": "I am Freelance bot",
  "suggest":"Sales force questions like :  Which Platform is used for developing an App in Salesforce?, How to build Salesforce on Mobile Application? , What are Primitive Data Types? , What does the Data Wrapper Class contain? ,Is Return Type a must for a Method? ,  How long is Bit Variable for a long statement?, What are the development tools for Apex?, What is the use of Debug Log?",
  "Which Platform is used for developing an App in Salesforce?":"The force.com platform is used for developing an App in Salesforce.",
  "How to build Salesforce on Mobile Application?":" Mobile SDK can be used to build Salesforce on the mobile application.",
@@ -32,5 +32,5 @@ if(question in answers){
 document.getElementById('bottxt').innerHTML =answers[question]
 }
 else
-document.getElementById('bottxt').innerHTML="Sorry ,I dont know. Contact your pod leader..."
+document.getElementById('bottxt').innerHTML="Sorry ,I dont know. Will get back to you email the author....."
 }
